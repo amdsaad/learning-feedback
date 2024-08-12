@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .app-btn-primary {
+    @apply bg-primary text-white font-bold py-2 px-4 rounded;
+  };
+  .app-input {
+    @apply bg-gray-50 border border-gray-300 text-gray-900 rounded-lg  block w-full p-2.5;
+  }
+  .section-title {
+    @apply mb-8 text-2xl font-bold text-gray-900;
+  }
+}
